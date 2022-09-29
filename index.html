@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images\logo.png" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSAL Oficial</title>
+
+    <link rel="icon" href="logo.png">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body onload="myFunction()">
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="images/logo.png" alt="Smiley" width="60" height="60">
+<script>
+function bigImg(x) {
+  x.style.height = "74px";
+  x.style.width = "74px";
+}
+
+function normalImg(x) {
+  x.style.height = "60px";
+  x.style.width = "60px";
+}
+</script>
+
+<div id="menuses">
+    <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Acerca</a></li>
+        <li><a href="#menu">Cultura</a></li>
+        <li><a href="#xd">Opciones</a></li>
+        <li><a href="#contact">Contactos</a></li>
+
+        <div class="dropdown">
+            <h3 class="bsb">Más Información</h3>
+            <div class="dropdown-content"><br>
+            <a href="">Matriculas</a>
+            <a href="logo.html">Logo INSAL</a>
+            <a href="prospecto.html">Misión y visión</a>
+            <a href="Pagina2.html">Area administrativa</a>
+            </div>
+    </ul>
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Instituto Nacional</h3>
+        <h3>San Luis</h3>
+        <p>Ciencia, Cultura y Superación</p>
+        <a href="https://www.facebook.com/Instituto-Naciona
+        l-San-Luis-Soyapango-Pagina-Oficial--112557343440816/?ref=page_internal" class="btn"
+        >visitanos en nuestra fanpage de Facebook</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>Sobre</span> Nosotros </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>¿Qué somos?</h3>
+      
+            <p>Somos una Institución de Educación Media del sector público ubicado en el municipio de Soyapango, 
+            que forma a los alumnos/as en las dimensiones: Morales, Sociales, Cívicas, Humanas, Intelectuales y 
+            Tecnológicas; a través de un equipo profesional.</p>
+
+           <!--<a href="https://www.facebook.com/Instituto-Nacional-San-Luis-Soyapango-Pagina-Oficial-
+            -112557343440816/about" class="btn">Aprende más</a> -->
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> Nuestra <span> cultura</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/banda.png" alt="">
+            <h3>Banda</h3>
+            <a href="banda.html" class="btn">Click here</a>
+        </div>
+
+        <div class="box">
+            <img src="images/danza.png" alt="">
+            <h3>Danza</h3>
+            <a href="https://fb.watch/ecgjzi1jsy/" class="btn">Click here</a>
+        </div>
+
+        <div class="box">
+            <img src="images/deporte.png" alt="">
+            <h3>Deportes</h3>
+            <a href="https://fb.watch/ecgVeN_9Q4/" class="btn">Click here</a>
+        </div>
+       
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- review section starts  -->
+
+<section class="xd" id="xd">
+
+    <h1 class="heading">Nuestras <span>Opciones</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+           
+            <img src="images/electrico.jpg" class="user" alt="">
+            <figcaption>
+                
+           
+            <h3>Sistemas electricos</h3>
+           
+        </div>
+
+        <div class="box">
+            
+            
+            <img src="images/diseño.jpg" class="user" alt="">
+            <h3>Diseño grafico</h3>
+            
+        </div>
+        
+        <div class="box">
+            
+            
+            <img src="images/contador.jpg" class="user" alt="">
+            <h3>Administrativo contable</h3>
+           
+            
+        </div>
+        <div class="box">
+            
+            
+            <img src="images/software.jpg" class="user" alt="">
+            
+            <h3>Desarrollo de software</h3>
+           
+            
+        </div>
+        <div class="box">
+            
+            
+            <img src="images/salud.jpg" class="user" alt="">
+            <h3>Atencion primaria en salud</h3>
+           
+            
+        </div>
+        <div class="box">
+            
+            
+            <img src="images/general.jpg" class="user" alt="">
+            <h3>General</h3>
+           
+            
+        </div>
+    </ul>
+    </div>
+
+</section>
+
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>nuestro</span> CONTACTO  </h1>
+
+    <div class="row">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.071792774684!2d-
+        89.13559658401134!3d13.714101575595445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1
+        s0x8f63379d6b6fcde3%3A0x902da1da7003aae7!2sINSAL%20Instituto%20Nacional%20San%20Luis!5e0
+        !3m2!1ses-419!2ssv!4v1660595867813!5m2!1ses-419!2ssv" width="600" height="450" style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <form action="Formulario">
+            <h3>PÓNGASE EN CONTACTO CON NOSOTROS</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="links">
+        <a href="#home">Inicio</a>
+        <a href="#about">Acerca</a>
+        <a href="#menu">Cultura</a>
+        <a href="#xd">Opciones</a>
+        <a href="#contact">Contactos</a>
+        <a href="Pagina2.html">Información</a>
+
+    </div>
+
+    <div class="credit">created by <span>FernandoT, NicoleY, AlexandraN & HelenG</span> | all rights reserved 2022</div>
+    <center><div class="credit"><span>INSAL</span> 30 años sirviendo a la juventud salvadoreña (<span>1993-2023</span>)</div></center>
+    <center><div class="credit">Número de teléfono <span>2290-6318</span> </div></center>
+
+</section>
+
+<!-- footer section ends -->
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+
+</body></html>
